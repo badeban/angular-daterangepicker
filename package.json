@@ -21,6 +21,7 @@
     "bootstrap-daterangepicker": "^2.0.0"
   },
   "main": "index.js",
+  "style": "dist/css/angular-bsdaterangepicker.css",
   "devDependencies": {
     "jquery": "^3.0.0",
     "lodash": "^4.15.0",
