@@ -1,4 +1,9 @@
-lib
-node_modules
-.idea
-.DS_Store
+che.DS_Store
+Thumbs.db
+.directory
+/.idea
+/node_modules
+
+*.TemplateCache.js
+
+*.log

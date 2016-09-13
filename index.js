@@ -1,2 +1,2 @@
-require('./js/angular-daterangepicker.js');
-module.exports = 'daterangepicker'
+require('./dist/js/angular-bsdaterangepicker.js');
+module.exports = 'angular-bsdaterangepicker';

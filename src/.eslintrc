@@ -1,0 +1,52 @@
+{
+  "root": true,
+  "env": {
+    "es6": true,
+    "browser": true,
+    "commonjs": true
+  },
+  "globals": {
+    "angular": true,
+    "_": true,
+    "moment": true,
+    "$": true
+  },
+  "rules": {
+    "curly": [2, "multi-line"],
+    "default-case": 1,
+    "dot-location": [1, "property"],
+    "dot-notation": 2,
+    "no-alert": 1,
+    "no-caller": 1,
+    "no-case-declarations": 2,
+    "no-console": 1,
+    "no-extra-boolean-cast": 0,
+    "no-use-before-define": [
+      2,
+      "nofunc"
+    ],
+    "indent": [
+      2,
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "linebreak-style": [
+      2,
+      "unix"
+    ],
+    "semi": [
+      2,
+      "always"
+    ],
+    "array-bracket-spacing": 2,
+    "block-spacing": 2,
+    "keyword-spacing": 2
+  },
+  "extends": "eslint:recommended"
+}
