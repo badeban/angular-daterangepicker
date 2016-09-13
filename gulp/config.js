@@ -5,8 +5,7 @@
         this.module_name = 'angular-bsdaterangepicker';
         this.base_dir = 'src/';
         this.dist_dir = 'dist/';
-        this.demo_dir = 'demo/';
-        this.docs_dir = 'docs/';
+        this.demo_dir = 'docs/';
         this.script_dir = 'js/';
         this.scss_dir = 'scss/';
         this.css_dir = 'css/';
