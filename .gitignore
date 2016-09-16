@@ -3,7 +3,7 @@ Thumbs.db
 .directory
 /.idea
 /node_modules
-
+/demo
 *.TemplateCache.js
 
 *.log
