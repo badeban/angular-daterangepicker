@@ -35,7 +35,8 @@ function datepickerDefaults($injector) {
             });
         }
     }
-    return angular.copy(settings);
+    Object.freeze(settings);
+    return settings;
 }
 
 
