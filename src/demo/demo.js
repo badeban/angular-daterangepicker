@@ -1,17 +1,11 @@
 'use strict';
 
 var angular = require('angular');
-window.moment = require('moment');
 require('moment/locale/de'); //optional
-window.jQuery = require('jquery');
-window.$ = window.jQuery;
-window._ = require('lodash');
-require('bootstrap-sass');
-require('bootstrap-daterangepicker');
 
 angular.module('example',
     [
-        require('../../'), // inject the module
+        require('../../') // inject the module
     ])
     .controller('TestCtrl', function ($scope) {
         $scope.date = {

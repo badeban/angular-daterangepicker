@@ -86,7 +86,7 @@ function dateRangePicker($parse, DATEPICKER_DEFAULTS) {
         },
         link: function link($scope, element, attrs, modelCtrl) {
             var customOpts = $scope.opts,
-                el = $(element),
+                el = jQuery(element),
                 opts = _.merge({}, DATEPICKER_DEFAULTS, customOpts),
                 picker = void 0;
 
