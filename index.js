@@ -7,16 +7,15 @@ if (require){
         window._ = require('lodash');
     }
 
-    if (window && !window.$ && !window.jQuery) {
-        window.$ = require('jquery');
-        window.jQuery = window.$
+    if (window && !window.jQuery) {
+        window.jQuery = require('jquery');
     }
 
-    if (typeof $().emulateTransitionEnd != 'function') {
+    if (typeof jQuery().emulateTransitionEnd != 'function') {
         require('bootstrap-sass');
     }
 
-    if (typeof $().daterangepicker != 'function') {
+    if (typeof jQuery().daterangepicker != 'function') {
         require('bootstrap-daterangepicker');
     }
 }
